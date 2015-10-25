@@ -1,0 +1,35 @@
+{
+  "name": "davidgomezgam/pluralizador",
+  "type": "library",
+  "description": "Singularize and Pluralize Spanish words.",
+  "keywords": ["spanish","español","singular", "plural", "singularize", "pluralize"],
+  "homepage": "https://github.com/davidgomezgam/pluralizador",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Gómez",
+      "email": "hola@davidgomezgam.com",
+      "homepage": "http://davidgomezgam.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "danielstjules/stringy": "~1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pluralizador\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/davidgomezgam/pluralizador/issues",
+    "source": "https://github.com/davidgomezgam/pluralizador"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
