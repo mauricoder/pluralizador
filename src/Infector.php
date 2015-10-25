@@ -230,7 +230,7 @@ class Infector
      * @param string $string
      * @return string
      */
-    public function singular( $string )
+    public static function singular( $string )
     {
         $value = static::toAscii( $string );
 
@@ -271,7 +271,7 @@ class Infector
      * @param string $string
      * @return string
      */
-    public function plural( $string )
+    public static function plural( $string )
     {
         $value = static::toAscii( $string );
 
@@ -312,7 +312,7 @@ class Infector
      * @param string $suffix
      * @return string
      */
-    public function cut( $string, $suffix)
+    public static function cut( $string, $suffix)
     {
         return preg_replace('/' . $suffix . '*$/', '', $string);
     }
